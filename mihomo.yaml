@@ -8,7 +8,7 @@ external-controller: 0.0.0.0:9090
 proxy-providers:
   SsrDog:
     type: http
-    url: http://192.168.18.3:8199/sub??target=clash&new_name=true&url=https%3A%2F%2Fbd609380c6526f5ca9337cd4d5ebf5b8.aoss-cn-hangzhou-aliyuncs.sbs%2Fs%3Ft%3Dbd609380c6526f5ca9337cd4d5ebf5b8.jpg&config=https%3A%2F%2Fraw.githubusercontent.com%2Fcnlinhai%2Fproxy%2Frefs%2Fheads%2Fmain%2Flinhaiproxy.ini&include=&exclude=&emoji=true&list=false&sort=false&udp=true&scv=false&append_type=false&fdn=true
+    url: http://192.168.18.3:8199/sub?target=clash&new_name=true&url=https%3A%2F%2Fbd609380c6526f5ca9337cd4d5ebf5b8.aoss-cn-hangzhou-aliyuncs.sbs%2Fs%3Ft%3Dbd609380c6526f5ca9337cd4d5ebf5b8.jpg&config=https%3A%2F%2Fraw.githubusercontent.com%2Fcnlinhai%2Fproxy%2Frefs%2Fheads%2Fmain%2Flinhaiproxy.ini&include=&exclude=&emoji=true&list=false&sort=false&udp=true&scv=false&append_type=false&fdn=true
     interval: 86400
     health-check:
       enable: true
